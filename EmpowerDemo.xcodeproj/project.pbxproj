@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D63A2052B990E1200B4873A /* EmpowerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63A2042B990E1200B4873A /* EmpowerDemoApp.swift */; };
+		5D63A2072B990E1200B4873A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63A2062B990E1200B4873A /* ContentView.swift */; };
+		5D63A2092B990E1400B4873A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D63A2082B990E1400B4873A /* Assets.xcassets */; };
+		5D63A20D2B990E1400B4873A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D63A20C2B990E1400B4873A /* Preview Assets.xcassets */; };
+		5D63A2322B990E5500B4873A /* Beneficiaries.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D63A2312B990E5500B4873A /* Beneficiaries.json */; };
+		5D63A2352B990EDC00B4873A /* Beneficiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63A2342B990EDC00B4873A /* Beneficiary.swift */; };
+		5D63A23A2B99130D00B4873A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63A2392B99130D00B4873A /* Constant.swift */; };
+		5D63A23F2B99153100B4873A /* CodableBundleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63A23E2B99153100B4873A /* CodableBundleExt.swift */; };
+		5D63A2432B99199100B4873A /* BeneficiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63A2422B99199100B4873A /* BeneficiaryView.swift */; };
+		5D63A2512B992D6300B4873A /* BeneficiaryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63A2502B992D6300B4873A /* BeneficiaryDetailView.swift */; };
+		5D63A2562B9A167D00B4873A /* riseup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D63A2552B9A167D00B4873A /* riseup.mp3 */; };
+		5D63A2582B9A168B00B4873A /* game-over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D63A2572B9A168B00B4873A /* game-over.mp3 */; };
+		5D63A25A2B9A169B00B4873A /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D63A2592B9A169B00B4873A /* PlaySound.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D63A2012B990E1200B4873A /* EmpowerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpowerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D63A2042B990E1200B4873A /* EmpowerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpowerDemoApp.swift; sourceTree = "<group>"; };
+		5D63A2062B990E1200B4873A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D63A2082B990E1400B4873A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D63A20A2B990E1400B4873A /* EmpowerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmpowerDemo.entitlements; sourceTree = "<group>"; };
+		5D63A20C2B990E1400B4873A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D63A2312B990E5500B4873A /* Beneficiaries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Beneficiaries.json; sourceTree = "<group>"; };
+		5D63A2342B990EDC00B4873A /* Beneficiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beneficiary.swift; sourceTree = "<group>"; };
+		5D63A2392B99130D00B4873A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5D63A23E2B99153100B4873A /* CodableBundleExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExt.swift; sourceTree = "<group>"; };
+		5D63A2422B99199100B4873A /* BeneficiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryView.swift; sourceTree = "<group>"; };
+		5D63A2502B992D6300B4873A /* BeneficiaryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeneficiaryDetailView.swift; sourceTree = "<group>"; };
+		5D63A2532B9A15D500B4873A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5D63A2552B9A167D00B4873A /* riseup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = riseup.mp3; sourceTree = "<group>"; };
+		5D63A2572B9A168B00B4873A /* game-over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game-over.mp3"; sourceTree = "<group>"; };
+		5D63A2592B9A169B00B4873A /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D63A1FE2B990E1200B4873A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D63A1F82B990E1200B4873A = {
+			isa = PBXGroup;
+			children = (
+				5D63A2032B990E1200B4873A /* EmpowerDemo */,
+				5D63A2022B990E1200B4873A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D63A2022B990E1200B4873A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A2012B990E1200B4873A /* EmpowerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D63A2032B990E1200B4873A /* EmpowerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A2542B9A166400B4873A /* Sounds */,
+				5D63A2532B9A15D500B4873A /* Info.plist */,
+				5D63A23D2B99150F00B4873A /* Extension */,
+				5D63A2382B9912F700B4873A /* Utility */,
+				5D63A2332B990E6400B4873A /* Model */,
+				5D63A2302B990E3D00B4873A /* Views */,
+				5D63A22F2B990E2B00B4873A /* Data */,
+				5D63A2042B990E1200B4873A /* EmpowerDemoApp.swift */,
+				5D63A2082B990E1400B4873A /* Assets.xcassets */,
+				5D63A20A2B990E1400B4873A /* EmpowerDemo.entitlements */,
+				5D63A20B2B990E1400B4873A /* Preview Content */,
+			);
+			path = EmpowerDemo;
+			sourceTree = "<group>";
+		};
+		5D63A20B2B990E1400B4873A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A20C2B990E1400B4873A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D63A22F2B990E2B00B4873A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A2312B990E5500B4873A /* Beneficiaries.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5D63A2302B990E3D00B4873A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A2062B990E1200B4873A /* ContentView.swift */,
+				5D63A2422B99199100B4873A /* BeneficiaryView.swift */,
+				5D63A2502B992D6300B4873A /* BeneficiaryDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D63A2332B990E6400B4873A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A2342B990EDC00B4873A /* Beneficiary.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D63A2382B9912F700B4873A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A2592B9A169B00B4873A /* PlaySound.swift */,
+				5D63A2392B99130D00B4873A /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5D63A23D2B99150F00B4873A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A23E2B99153100B4873A /* CodableBundleExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5D63A2542B9A166400B4873A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5D63A2572B9A168B00B4873A /* game-over.mp3 */,
+				5D63A2552B9A167D00B4873A /* riseup.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D63A2002B990E1200B4873A /* EmpowerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D63A2262B990E1400B4873A /* Build configuration list for PBXNativeTarget "EmpowerDemo" */;
+			buildPhases = (
+				5D63A1FD2B990E1200B4873A /* Sources */,
+				5D63A1FE2B990E1200B4873A /* Frameworks */,
+				5D63A1FF2B990E1200B4873A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmpowerDemo;
+			productName = EmpowerDemo;
+			productReference = 5D63A2012B990E1200B4873A /* EmpowerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D63A1F92B990E1200B4873A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5D63A2002B990E1200B4873A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5D63A1FC2B990E1200B4873A /* Build configuration list for PBXProject "EmpowerDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D63A1F82B990E1200B4873A;
+			productRefGroup = 5D63A2022B990E1200B4873A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D63A2002B990E1200B4873A /* EmpowerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D63A1FF2B990E1200B4873A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D63A2562B9A167D00B4873A /* riseup.mp3 in Resources */,
+				5D63A2582B9A168B00B4873A /* game-over.mp3 in Resources */,
+				5D63A20D2B990E1400B4873A /* Preview Assets.xcassets in Resources */,
+				5D63A2092B990E1400B4873A /* Assets.xcassets in Resources */,
+				5D63A2322B990E5500B4873A /* Beneficiaries.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D63A1FD2B990E1200B4873A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D63A2072B990E1200B4873A /* ContentView.swift in Sources */,
+				5D63A25A2B9A169B00B4873A /* PlaySound.swift in Sources */,
+				5D63A2352B990EDC00B4873A /* Beneficiary.swift in Sources */,
+				5D63A2052B990E1200B4873A /* EmpowerDemoApp.swift in Sources */,
+				5D63A23F2B99153100B4873A /* CodableBundleExt.swift in Sources */,
+				5D63A2432B99199100B4873A /* BeneficiaryView.swift in Sources */,
+				5D63A2512B992D6300B4873A /* BeneficiaryDetailView.swift in Sources */,
+				5D63A23A2B99130D00B4873A /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D63A2242B990E1400B4873A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D63A2252B990E1400B4873A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5D63A2272B990E1400B4873A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EmpowerDemo/EmpowerDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmpowerDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = PFN5CE6QJ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmpowerDemo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flixbay.EmpowerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D63A2282B990E1400B4873A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EmpowerDemo/EmpowerDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmpowerDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = PFN5CE6QJ4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmpowerDemo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flixbay.EmpowerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D63A1FC2B990E1200B4873A /* Build configuration list for PBXProject "EmpowerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D63A2242B990E1400B4873A /* Debug */,
+				5D63A2252B990E1400B4873A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D63A2262B990E1400B4873A /* Build configuration list for PBXNativeTarget "EmpowerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D63A2272B990E1400B4873A /* Debug */,
+				5D63A2282B990E1400B4873A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D63A1F92B990E1200B4873A /* Project object */;
+}
